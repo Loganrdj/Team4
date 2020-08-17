@@ -9,7 +9,7 @@ $(document).ready(function () {
         var googleApiKey = prompt("Please enter your Google API Key", "Google API Key here");
     }
 
-    console.log(window.location.pathname);
+    // console.log(window.location.pathname);
     
 
     if ("geolocation" in navigator && window.location.pathname.endsWith("restaurant.html")){        //check if geolocation is available and try to get user current location
